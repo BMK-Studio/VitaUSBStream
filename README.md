@@ -24,22 +24,9 @@ The project is based on the original **UDCD-UVC** plugin, which streamed video o
 
 ## Installation
 
-1. Copy `VitaUSBStream.skprx` to:
-
-```text
-ur0:tai/
-```
-
-2. Add the plugin under `*KERNEL` in `ur0:tai/config.txt`:
-
-```ini
-*KERNEL
-ur0:tai/VitaUSBStream.skprx
-```
-
-3. Remove any old configuration lines loading a previous UDCD-UVC audio plugin or audio bridge.
-4. Fully reboot the PS Vita.
-5. Install `VUS-Control.vpk` with VitaTweakBox ore VitaShell.
+1. Remove any old configuration lines loading a previous UDCD-UVC audio plugin or audio bridge.
+2. Copy `vpk file to your PSVita/TV`
+3. Install with VitaTweakBox or VitaShell and launch it
 
 ## Usage
 
