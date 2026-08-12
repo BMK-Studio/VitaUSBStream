@@ -8,6 +8,9 @@
 - The display now follows the USB connection status while using screen-off mode.
 - Prevented automatic standby while streaming.
 - Improved USB reconnection, shutdown behavior, compatibility, and overall stability.
-- Added HomebrewUpdate detection and guided installation to the control application.
+- Added HomebrewUpdate detection and guided installation.
+- VitaUSBStream is now distributed as an all-in-one VPK.
+- The application automatically installs the VitaUSBStream plugin when missing or replaces it when an outdated version is detected.
+- A system restart is automatically performed after installing or updating the plugin.
   ]]></changes>
 </changeinfo>
