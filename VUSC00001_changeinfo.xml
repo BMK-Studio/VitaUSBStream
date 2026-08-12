@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <changeinfo titleid="VUSC00001">
-  <changes app_ver="01.01"><![CDATA[
-Test for Vita USB Stream Control GITHUB.
+  <changes app_ver="01.10"><![CDATA[
+- Expanded USB audio capture support for games, homebrew, emulators, and system audio.
+- Improved capture of sound effects and mixed audio sources.
+- Added adaptive support for 44.1 kHz and 48 kHz audio.
+- Added an optional screen-off streaming mode for both OLED and LCD PS Vita models.
+- The display now follows the USB connection status while using screen-off mode.
+- Prevented automatic standby while streaming.
+- Improved USB reconnection, shutdown behavior, compatibility, and overall stability.
+- Added HomebrewUpdate detection and guided installation to the control application.
   ]]></changes>
 </changeinfo>
