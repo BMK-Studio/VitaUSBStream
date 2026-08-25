@@ -1,16 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <changeinfo titleid="VUSC00001">
-  <changes app_ver="01.10"><![CDATA[
-- Expanded USB audio capture support for games, homebrew, emulators, and system audio.
-- Improved capture of sound effects and mixed audio sources.
-- Added adaptive support for 44.1 kHz and 48 kHz audio.
-- Added an optional screen-off streaming mode for both OLED and LCD PS Vita models.
-- The display now follows the USB connection status while using screen-off mode.
-- Prevented automatic standby while streaming.
-- Improved USB reconnection, shutdown behavior, compatibility, and overall stability.
-- Added HomebrewUpdate detection and guided installation.
-- VitaUSBStream is now distributed as an all-in-one VPK.
-- The application automatically installs the VitaUSBStream plugin when missing or replaces it when an outdated version is detected.
-- A system restart is automatically performed after installing or updating the plugin.
-  ]]></changes>
+  <changes app_ver="01.20">
+    <![CDATA[
+	<br>
+New Features
+	<br>
+    <ul>
+		<li>Added SceShell Composite support.</li>
+		<li>Added support for the Sony keyboard / IME.</li>
+		<li>Added support for system notifications.</li>
+		<li>Added support for the long-press PS button menu and other system overlays.</li>
+		<li>Added HomebrewPatch integration alongside HomebrewUpdate.</li>
+	</ul><br>
+Video & Rendering Improvements
+	<br><br>
+	<ul>
+		<li>Added proper alpha/transparency handling for system overlays.</li>
+		<li>Added Final Display Geometry handling.</li>
+		<li>Improved Adrenaline / PSP / PS1 aspect-ratio handling.</li>
+		<li>Improved bilinear filtering.</li>
+		<li>Improved framebuffer and resolution switching.</li>
+		<li>Added safer blanking handling when switching display sources.</li>
+	</ul><br>
+Fixes
+	<br><br>
+	<ul>
+		<li>Fixed stale frames remaining visible after display changes.</li>
+		<li>Fixed lingering Adrenaline / POPS images in OBS.</li>
+		<li>Improved handling of dynamic display changes and system overlays.</li>
+		<li>Improved taiHEN configuration detection for both ux0:tai and ur0:tai.</li>
+	</ul><br>
+Stability & Performance
+	<br><br>
+	<ul>	
+		<li>Improved SceShell capture fluidity, especially for video and YouTube playback.</li>
+		<li>Improved USB audio/video stability.</li>
+		<li>Improved handling of dynamic audio sources.</li>
+		<li>General stability improvements and internal cleanup.</li>
+	</ul><br>
+		SceShell Composite is mainly intended for recording videos, YouTube content, 
+		or using a single application at a time. For regular gaming, switching between 
+		multiple applications, or longer sessions, use the standard capture mode.
+    ]]>
+  </changes>
 </changeinfo>
