@@ -5,39 +5,35 @@
 	<br>
 New Features
 	<br>
-    <ul>
-		<li>Added SceShell Composite support.</li>
-		<li>Added support for the Sony keyboard / IME.</li>
-		<li>Added support for system notifications.</li>
-		<li>Added support for the long-press PS button menu and other system overlays.</li>
-		<li>Added HomebrewPatch integration alongside HomebrewUpdate.</li>
-	</ul><br>
+		Added SceShell Composite support.
+		Added support for the Sony keyboard / IME.
+		Added support for system notifications.
+		Added support for the long-press PS button menu and other system overlays.
+		Added HomebrewPatch integration alongside HomebrewUpdate.
+	<br>
 Video & Rendering Improvements
 	<br><br>
-	<ul>
-		<li>Added proper alpha/transparency handling for system overlays.</li>
-		<li>Added Final Display Geometry handling.</li>
-		<li>Improved Adrenaline / PSP / PS1 aspect-ratio handling.</li>
-		<li>Improved bilinear filtering.</li>
-		<li>Improved framebuffer and resolution switching.</li>
-		<li>Added safer blanking handling when switching display sources.</li>
-	</ul><br>
+		Added proper alpha/transparency handling for system overlays.
+		Added Final Display Geometry handling.
+		Improved Adrenaline / PSP / PS1 aspect-ratio handling.
+		Improved bilinear filtering.
+		Improved framebuffer and resolution switching.
+		Added safer blanking handling when switching display sources.
+	<br>
 Fixes
 	<br><br>
-	<ul>
-		<li>Fixed stale frames remaining visible after display changes.</li>
-		<li>Fixed lingering Adrenaline / POPS images in OBS.</li>
-		<li>Improved handling of dynamic display changes and system overlays.</li>
-		<li>Improved taiHEN configuration detection for both ux0:tai and ur0:tai.</li>
-	</ul><br>
+		Fixed stale frames remaining visible after display changes.
+		Fixed lingering Adrenaline / POPS images in OBS.
+		Improved handling of dynamic display changes and system overlays.
+		Improved taiHEN configuration detection for both ux0:tai and ur0:tai.
+	<br>
 Stability & Performance
-	<br><br>
-	<ul>	
-		<li>Improved SceShell capture fluidity, especially for video and YouTube playback.</li>
-		<li>Improved USB audio/video stability.</li>
-		<li>Improved handling of dynamic audio sources.</li>
-		<li>General stability improvements and internal cleanup.</li>
-	</ul><br>
+	<br><br>	
+		Improved SceShell capture fluidity, especially for video and YouTube playback.
+		Improved USB audio/video stability.
+		Improved handling of dynamic audio sources.
+		General stability improvements and internal cleanup.
+	<br>
 		SceShell Composite is mainly intended for recording videos, YouTube content, 
 		or using a single application at a time. For regular gaming, switching between 
 		multiple applications, or longer sessions, use the standard capture mode.
