@@ -34,9 +34,15 @@ Stability & Performance:
 		Improved handling of dynamic audio sources.
 		General stability improvements and internal cleanup.
 	<br>
+Note:
+	  <br><br>
 		SceShell Composite is mainly intended for recording videos, YouTube content, 
 		or using a single application at a time. For regular gaming, switching between 
 		multiple applications, or longer sessions, use the standard capture mode.
+	  <br><br>
+	  Before installing or launching the new version, please remove the existing VitaUSBStream plugin from your tai directory.
+	  The application has been reworked, and an incorrect plugin version was previously distributed as part of earlier test builds. This has now been corrected.
+	  Starting with this version, VitaUSBStream is moving forward from a clean and stable base.
     ]]>
   </changes>
 </changeinfo>
