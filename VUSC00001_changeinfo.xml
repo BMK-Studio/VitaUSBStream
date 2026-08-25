@@ -3,7 +3,7 @@
   <changes app_ver="01.20">
     <![CDATA[
 	<br>
-New Features
+New Features:
 	<br>
 		Added SceShell Composite support.
 		Added support for the Sony keyboard / IME.
@@ -11,7 +11,7 @@ New Features
 		Added support for the long-press PS button menu and other system overlays.
 		Added HomebrewPatch integration alongside HomebrewUpdate.
 	<br>
-Video & Rendering Improvements
+Video & Rendering Improvements:
 	<br><br>
 		Added proper alpha/transparency handling for system overlays.
 		Added Final Display Geometry handling.
@@ -20,14 +20,14 @@ Video & Rendering Improvements
 		Improved framebuffer and resolution switching.
 		Added safer blanking handling when switching display sources.
 	<br>
-Fixes
+Fixes:
 	<br><br>
 		Fixed stale frames remaining visible after display changes.
 		Fixed lingering Adrenaline / POPS images in OBS.
 		Improved handling of dynamic display changes and system overlays.
 		Improved taiHEN configuration detection for both ux0:tai and ur0:tai.
 	<br>
-Stability & Performance
+Stability & Performance:
 	<br><br>	
 		Improved SceShell capture fluidity, especially for video and YouTube playback.
 		Improved USB audio/video stability.
