@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <titlepatch status="alive" titleid="VUSC00001">
   <tag name="VUSC00001_T0" signoff="true">
-    <package version="01.20"
-             size="675838"
-             sha1sum="223f1bdabb88ad415c4f9faf9d67d99be6aeee0b"
-             url="https://github.com/BMK-Studio/VitaUSBStream/releases/download/1.2/VUSC00001-01.20-VitaUSBStream.vpk"
+    <package version="01.30"
+             size="678276"
+             sha1sum="d8f37d3e31969cd7c181fb9dbe8f3a761db4602a"
+             url="https://github.com/BMK-Studio/VitaUSBStream/releases/download/1.3/VUSC00001-01.30-VitaUSBStream.vpk"
              psp2_system_ver="56623104"
              content_id="EP9000-VUSC00001_00-VITAUSBSTRE0001">
       <paramsfo>
