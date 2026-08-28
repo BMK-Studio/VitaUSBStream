@@ -25,7 +25,6 @@ Fixes:
 	<br>
 Stability & Performance:
 	<br><br>	
-		Improved SceShell capture fluidity, especially for video and YouTube playback.
 		Improved USB audio/video stability.
 		Improved handling of dynamic audio sources.
 		General stability improvements and internal cleanup.
