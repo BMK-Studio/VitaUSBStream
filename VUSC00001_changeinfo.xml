@@ -5,10 +5,6 @@
 	<br>
 New Features:
 	<br>
-		Added SceShell Composite support.
-		Added support for the Sony keyboard / IME.
-		Added support for system notifications.
-		Added support for the long-press PS button menu and other system overlays.
 		Added HomebrewPatch integration alongside HomebrewUpdate.
 	<br>
 Video & Rendering Improvements:
@@ -36,10 +32,6 @@ Stability & Performance:
 	<br>
 Note:
 	  <br><br>
-		SceShell Composite is mainly intended for recording videos, YouTube content, 
-		or using a single application at a time. For regular gaming, switching between 
-		multiple applications, or longer sessions, use the standard capture mode.
-	  <br>
 	  Before installing or launching the new version, please remove the existing VitaUSBStream plugin from your tai directory.
 	  The application has been reworked, and an incorrect plugin version was previously distributed as part of earlier test builds. This has now been corrected.
 	  Starting with this version, VitaUSBStream is moving forward from a clean and stable base.
