@@ -1,39 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <changeinfo titleid="VUSC00001">
-  <changes app_ver="01.20">
+  <changes app_ver="01.30">
     <![CDATA[
 	<br>
-New Features:
+Standby Support Restored:
 	<br>
-		Added HomebrewPatch integration alongside HomebrewUpdate.
-	<br>
-Video & Rendering Improvements:
-	<br><br>
-		Added proper alpha/transparency handling for system overlays.
-		Added Final Display Geometry handling.
-		Improved Adrenaline / PSP / PS1 aspect-ratio handling.
-		Improved bilinear filtering.
-		Improved framebuffer and resolution switching.
-		Added safer blanking handling when switching display sources.
-	<br>
-Fixes:
-	<br><br>
-		Fixed stale frames remaining visible after display changes.
-		Fixed lingering Adrenaline / POPS images in OBS.
-		Improved handling of dynamic display changes and system overlays.
-		Improved taiHEN configuration detection for both ux0:tai and ur0:tai.
-	<br>
-Stability & Performance:
-	<br><br>	
-		Improved USB audio/video stability.
-		Improved handling of dynamic audio sources.
-		General stability improvements and internal cleanup.
-	<br>
-Note:
-	  <br><br>
-	  Before installing or launching the new version, please remove the existing VitaUSBStream plugin from your tai directory.
-	  The application has been reworked, and an incorrect plugin version was previously distributed as part of earlier test builds. This has now been corrected.
-	  Starting with this version, VitaUSBStream is moving forward from a clean and stable base.
+		Standby mode is now supported again while VitaUSBStream is active.
+		Standby works in both Screen On and Screen Off modes.
+		In Screen On mode, the display turns back on normally when the PS Vita wakes up.
+		In Screen Off mode, the display may briefly turn on during wake-up, then VitaUSBStream immediately turns it off again.
+		USB video streaming resumes normally after wake-up when the host reconnects the video stream.
+		If the video does not automatically return in OBS or another capture application, switch to another video source/device and then switch back to VitaUSBStream to restart the stream.
     ]]>
   </changes>
 </changeinfo>
