@@ -1,0 +1,67 @@
+name: Bug Report
+description: Report a problem with VitaUSBStream
+title: "[Bug] "
+labels:
+  - bug
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting an issue.
+
+        Please provide enough information to reproduce the problem.
+        The VitaUSBStream log already contains most Vita-side technical information.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the issue
+      description: Explain clearly what happens.
+      placeholder: Describe the problem in detail.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Explain exactly what you do before the problem occurs.
+      placeholder: |
+        1.
+        2.
+        3.
+        4.
+    validations:
+      required: true
+
+  - type: input
+    id: host
+    attributes:
+      label: Host system / software
+      description: Only if relevant to the issue.
+      placeholder: Windows 11 + OBS / Kali Linux + ALSA / Raspberry Pi 5 + MPV
+    validations:
+      required: false
+
+  - type: textarea
+    id: log
+    attributes:
+      label: VitaUSBStream log
+      description: |
+        Please attach the latest log file from:
+
+        ux0:data/VitaUSBStream/
+
+        You can drag and drop the file directly into this field.
+      placeholder: Drag and drop your VitaUSBStream log file here.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have attached the VitaUSBStream log file.
+          required: true
