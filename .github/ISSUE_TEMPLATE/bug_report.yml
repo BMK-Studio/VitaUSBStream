@@ -1,6 +1,6 @@
 name: Bug Report
 description: Report a problem with VitaUSBStream
-title: "[Bug] "
+title: ""
 labels:
   - bug
 
