@@ -1,5 +1,7 @@
 # VitaUSBStream Audio & Video over USB — Beta Version
 
+<img width="960" height="544" alt="VitaUSBStream" src="https://github.com/user-attachments/assets/d4411d1b-a85c-4720-9619-68da1c93ccfd" />
+
 **VitaUSBStream Audio & Video over USB** allows you to stream both the **video and audio** from a PS Vita to a computer using a single USB cable.
 
 The project is based on the original **UDCD-UVC** plugin, which streamed video only. This version adds USB Audio Class support so the console audio can be captured directly in OBS without using a 3.5 mm audio cable.
@@ -10,16 +12,27 @@ The project is based on the original **UDCD-UVC** plugin, which streamed video o
 
 - USB video streaming through UVC;
 - USB audio streaming through UAC;
-- compatible with OBS and software supporting standard USB video and audio devices;
+- compatibility with OBS and software supporting standard USB video and audio devices;
+- screen streaming with Screen On and Screen Off modes;
+- front and rear PS Vita camera streaming;
+- camera switching using the L/R buttons;
+- native camera streaming at **640×480 at 60 FPS** or **480×272 at 30 FPS**;
+- optional PS Vita microphone streaming while using a camera;
+- automatic display restoration when USB is disconnected in Screen Off mode;
+- automatic Screen Off restoration when USB is reconnected;
+- standby and wake-up support while streaming;
 - Shell theme music and system sounds;
 - LiveArea sound effects;
 - game audio;
 - application and homebrew audio;
 - automatic detection of the active process and audio port;
-- support for 44.1 kHz and 48 kHz sources;
+- support for 44.1 kHz and 48 kHz audio sources;
 - automatic conversion to **48 kHz, stereo, 16-bit PCM**;
 - simultaneous mixing of multiple audio sources;
-- manual enable and disable through a PS Vita application;
+- manual streaming control through a PS Vita application;
+- automatic USB recovery after stopping a stream or encountering an error;
+- automatic installation and updating of the VitaUSBStream kernel plugin;
+- Sony PAF-based interface with active mode and source indicators;
 - no WAV or PCM files recorded to the memory card.
 
 ## Installation
