@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <changeinfo titleid="VUSC00001">
-  <changes app_ver="01.30">
+  <changes app_ver="01.40">
     <![CDATA[
 	<br>
 Standby Support Restored:
 	<br>
-		Standby mode is now supported again while VitaUSBStream is active.
-		Standby works in both Screen On and Screen Off modes.
-		In Screen On mode, the display turns back on normally when the PS Vita wakes up.
-		In Screen Off mode, the display may briefly turn on during wake-up, then VitaUSBStream immediately turns it off again.
-		USB video streaming resumes normally after wake-up when the host reconnects the video stream.
-		If the video does not automatically return in OBS or another capture application, switch to another video source/device and then switch back to VitaUSBStream to restart the stream.
+	New Sony PAF interface that is cleaner and easier to read.
+	Larger text and controls for better visibility on the PS Vita screen.
+	Redesigned streaming mode presentation with distinct colors.
+	Added camera streaming with two native resolution profiles:
+		640×480 at 60 FPS
+		480×272 at 30 FPS
+	Added support for both front and rear cameras, with switching via the L/R buttons.
+	Added support for the PS Vita microphone during camera streaming.
+	Camera streaming now uses native resolutions directly, without resizing.
+	Improved compatibility with the Windows Camera app and OBS.
+	Improved camera mode stability, especially with the 480×272 profile.
+	Improved memory management when switching or stopping streaming modes.
+	Camera, microphone, and audio resources are now released when streaming stops.
+	Improved USB recovery after streaming errors.
+	Screen On and Screen Off modes are now clearly identified.
+	In Screen Off mode, disconnecting the USB cable restores the display, while reconnecting it turns the display off again.
+	Improved standby and wake-up behavior during streaming.
+	The interface now clearly displays the active source: screen, front camera, or rear camera.
+	Improved installation, updating, and detection of VitaUSBStream, HomebrewUpdate, and HomebrewPatch.
+	Various stability improvements and minor fixes.
     ]]>
   </changes>
 </changeinfo>
