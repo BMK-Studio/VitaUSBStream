@@ -55,6 +55,9 @@ In OBS, add:
 
 Video and audio appear as separate sources in OBS, but both are transmitted through the same USB cable.
 
+For Linux device discovery, OBS source selection, and migration checks, see
+[Linux capture and migration checks](docs/linux-capture.md).
+
 ## Supported Audio Sources
 
 The current version can automatically capture:
